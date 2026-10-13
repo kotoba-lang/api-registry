@@ -1,0 +1,48 @@
+{
+  "id": "kotobase-graphdb-compat-api-v0_1",
+  "name": "Kotobase GraphDB/RDF4J Query Compatibility API",
+  "kind": "service-api-spec",
+  "description": "Read-only GraphDB/RDF4J query compatibility subset backed by Kotobase SPARQL, including a declared health route and query operations.",
+  "source": {
+    "repository": "kotoba-lang/kotobase-sdk",
+    "commit": "818c67802af5f6d9ca62af5bfc81a538bdb753c4",
+    "ref": "main",
+    "files": [
+      {
+        "path": "spec/graphdb-openapi.yaml",
+        "role": "openapi-specification",
+        "mediaType": "application/yaml",
+        "sha256": "09fef75ccce2ac116fe677b0ad86b70cd630e5e3bc8acc360c67e9d4a49b7a48",
+        "url": "https://github.com/kotoba-lang/kotobase-sdk/blob/818c67802af5f6d9ca62af5bfc81a538bdb753c4/spec/graphdb-openapi.yaml"
+      },
+      {
+        "path": "docs/adr/0002-graphdb-query-compatibility.md",
+        "role": "compatibility-scope",
+        "mediaType": "text/markdown",
+        "sha256": "9f4ba747121e9a635328c5eac72d9804cc76cf519a8839b265994bd1ade0f1c5",
+        "url": "https://github.com/kotoba-lang/kotobase-sdk/blob/818c67802af5f6d9ca62af5bfc81a538bdb753c4/docs/adr/0002-graphdb-query-compatibility.md"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "0.1.0",
+    "maturity": "source-documented",
+    "license": "Apache-2.0"
+  },
+  "effects": [
+    "read-only-query",
+    "public-health-read",
+    "bearer-authentication-for-query"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFilesHashCheckedAgainstLocalCheckout": true,
+    "contractParse": "openapi-document-declared-3.1.0; formal-parser-not-run",
+    "tests": "not-run-in-this-registry-change",
+    "implementationConformance": "not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

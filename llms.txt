@@ -1,0 +1,9 @@
+# Kotoba API Registry
+
+Curated catalog of API contracts, protocol specifications, API clients and implementations owned by kotoba-lang.
+
+- Catalog: ./index.json
+- Full consumption and verification contract: ./llms-full.txt
+- Ownership: ./docs/adr/0001-api-registry-ownership.md
+- Entry schema: ./schemas/entry.schema.json
+- Source repository remains authoritative; index membership grants no execution rights.

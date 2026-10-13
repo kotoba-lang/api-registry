@@ -1,0 +1,71 @@
+{
+  "id": "kotobase-sdk",
+  "name": "Kotobase multi-language SDK",
+  "kind": "api-client",
+  "description": "TypeScript, Python, Rust and PHP clients for the shared Kotobase query envelope; the source README documents read-only query families.",
+  "source": {
+    "repository": "kotoba-lang/kotobase-sdk",
+    "commit": "818c67802af5f6d9ca62af5bfc81a538bdb753c4",
+    "ref": "main",
+    "files": [
+      {
+        "path": "README.md",
+        "role": "sdk-overview",
+        "mediaType": "text/markdown",
+        "sha256": "a28c2f06c315fc89690df5e7cc4c74fc9911f4b6d9e8d1970e1e9742c096fc08",
+        "url": "https://github.com/kotoba-lang/kotobase-sdk/blob/818c67802af5f6d9ca62af5bfc81a538bdb753c4/README.md"
+      },
+      {
+        "path": "packages/typescript/src/index.ts",
+        "role": "typescript-client",
+        "mediaType": "text/plain",
+        "sha256": "3e82611dbd52a7ef24241e51186056fae1b976b5e30b8489c1343653e948fb17",
+        "url": "https://github.com/kotoba-lang/kotobase-sdk/blob/818c67802af5f6d9ca62af5bfc81a538bdb753c4/packages/typescript/src/index.ts"
+      },
+      {
+        "path": "packages/python/src/kotobase/client.py",
+        "role": "python-client",
+        "mediaType": "text/plain",
+        "sha256": "e9e5c447a59442b51f5b548431c9ae83e549f01a68efe6a41562b91beb4f6623",
+        "url": "https://github.com/kotoba-lang/kotobase-sdk/blob/818c67802af5f6d9ca62af5bfc81a538bdb753c4/packages/python/src/kotobase/client.py"
+      },
+      {
+        "path": "packages/rust/src/lib.rs",
+        "role": "rust-client",
+        "mediaType": "text/plain",
+        "sha256": "eb7103f17522952e2ea38af069cabccc2a2f2d7ef91af122f663559cd71e513b",
+        "url": "https://github.com/kotoba-lang/kotobase-sdk/blob/818c67802af5f6d9ca62af5bfc81a538bdb753c4/packages/rust/src/lib.rs"
+      },
+      {
+        "path": "packages/php/src/KotobaseClient.php",
+        "role": "php-client",
+        "mediaType": "text/plain",
+        "sha256": "a44e4850f11f128f89900a0a8ebd1c5af359f515f2837b3952050a448115acbe",
+        "url": "https://github.com/kotoba-lang/kotobase-sdk/blob/818c67802af5f6d9ca62af5bfc81a538bdb753c4/packages/php/src/KotobaseClient.php"
+      }
+    ]
+  },
+  "contract": {
+    "format": "Kotobase query envelope",
+    "version": "see-linked-service-specs",
+    "maturity": "source-documented",
+    "license": "Apache-2.0"
+  },
+  "relatedEntries": [
+    "kotobase-query-api-v0_2",
+    "kotobase-graphdb-compat-api-v0_1"
+  ],
+  "effects": [
+    "read-only-query",
+    "bearer-authentication"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFilesHashCheckedAgainstLocalCheckout": true,
+    "contractParse": "not-applicable-client",
+    "tests": "not-run-in-this-registry-change",
+    "implementationConformance": "not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

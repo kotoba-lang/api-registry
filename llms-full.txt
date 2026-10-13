@@ -1,0 +1,7 @@
+# Kotoba API Registry consumption contract
+
+Read one registry commit and select entries by `kind`, contract version and maturity. The `source.commit` pins the owner repository snapshot. Verify each `source.files[].sha256` against the bytes at that commit before relying on the recorded source.
+
+`verification` fields describe only the named check. `remoteHeadMatchedPinnedCommit` means the selected source commit matched the public default branch at registry review time; it is not a permanent claim about that branch. `tests`, `implementationConformance` and `liveEndpoint` are independent evidence. Unknown or unverified does not imply failure or success.
+
+The catalog is discovery metadata. It does not grant access, credentials, capability, deployment, payment authority or endpoint health. Use the owning repository and current service policy for execution decisions.

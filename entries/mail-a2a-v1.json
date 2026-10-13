@@ -1,0 +1,54 @@
+{
+  "id": "mail-a2a-v1",
+  "name": "MailA2A binding v1",
+  "kind": "protocol-spec",
+  "description": "Experimental store-and-forward email binding for A2A with x402 payment objects and MLS-protected groups; host provides mail, cryptographic and settlement effects.",
+  "source": {
+    "repository": "kotoba-lang/mail-a2a",
+    "commit": "c1816623e363866a5c432e917f7a2cce8bd058c0",
+    "ref": "main",
+    "files": [
+      {
+        "path": "README.md",
+        "role": "overview",
+        "mediaType": "text/markdown",
+        "sha256": "465c08f5ab38c9ab853e87b6407bca95fe150603824ce6582f59578b3e875721",
+        "url": "https://github.com/kotoba-lang/mail-a2a/blob/c1816623e363866a5c432e917f7a2cce8bd058c0/README.md"
+      },
+      {
+        "path": "spec/v1.md",
+        "role": "normative-specification",
+        "mediaType": "text/markdown",
+        "sha256": "a7b1c56d18fac261eb3a3e7ba5aa3b58c42a80c7752b6d5bfbdd3af07887e828",
+        "url": "https://github.com/kotoba-lang/mail-a2a/blob/c1816623e363866a5c432e917f7a2cce8bd058c0/spec/v1.md"
+      },
+      {
+        "path": "schema/envelope-v1.schema.json",
+        "role": "machine-schema",
+        "mediaType": "application/schema+json",
+        "sha256": "da9efe24907b76c5ae69a9f7f81df94605dc1c94a4634d1bce81abb96e0e73c5",
+        "url": "https://github.com/kotoba-lang/mail-a2a/blob/c1816623e363866a5c432e917f7a2cce8bd058c0/schema/envelope-v1.schema.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "MailA2A",
+    "version": "1.0",
+    "maturity": "experimental-community-specification",
+    "license": "Apache-2.0"
+  },
+  "effects": [
+    "host-mediated-mail-transport",
+    "carries-payment-data-only",
+    "no-wallet-or-settlement-implementation"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFilesHashCheckedAgainstLocalCheckout": true,
+    "contractParse": "machine-schema-json-parse-checked",
+    "tests": "not-run-in-this-registry-change",
+    "implementationConformance": "not-applicable-specification-only",
+    "liveEndpoint": "not-applicable-specification-only"
+  }
+}

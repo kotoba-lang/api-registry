@@ -1,0 +1,170 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Kotoba API Registry entry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "kind",
+    "description",
+    "source",
+    "contract",
+    "verification"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9._-]*$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "kind": {
+      "enum": [
+        "api-contract-library",
+        "protocol-spec",
+        "service-api-spec",
+        "api-client",
+        "api-implementation"
+      ]
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "repository",
+        "commit",
+        "ref",
+        "files"
+      ],
+      "properties": {
+        "repository": {
+          "type": "string",
+          "pattern": "^kotoba-lang/[a-z0-9._-]+$"
+        },
+        "commit": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        },
+        "ref": {
+          "type": "string"
+        },
+        "files": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "path",
+              "role",
+              "mediaType",
+              "sha256",
+              "url"
+            ],
+            "properties": {
+              "path": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "mediaType": {
+                "type": "string"
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "url": {
+                "type": "string",
+                "format": "uri"
+              }
+            }
+          }
+        }
+      }
+    },
+    "contract": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "format",
+        "version",
+        "maturity",
+        "license"
+      ],
+      "properties": {
+        "format": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        },
+        "apiVersion": {
+          "type": "string"
+        },
+        "maturity": {
+          "type": "string"
+        },
+        "license": {
+          "type": "string"
+        }
+      }
+    },
+    "relatedEntries": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "effects": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "remoteDefaultBranch",
+        "remoteHeadMatchedPinnedCommit",
+        "sourceFilesHashCheckedAgainstLocalCheckout",
+        "contractParse",
+        "tests",
+        "implementationConformance",
+        "liveEndpoint"
+      ],
+      "properties": {
+        "remoteDefaultBranch": {
+          "type": "string"
+        },
+        "remoteHeadMatchedPinnedCommit": {
+          "type": "boolean"
+        },
+        "sourceFilesHashCheckedAgainstLocalCheckout": {
+          "type": "boolean"
+        },
+        "contractParse": {
+          "type": "string"
+        },
+        "tests": {
+          "type": "string"
+        },
+        "implementationConformance": {
+          "type": "string"
+        },
+        "liveEndpoint": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

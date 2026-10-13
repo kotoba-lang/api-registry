@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Kotoba API Registry index",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "entries"],
+  "properties": {
+    "schemaVersion": { "const": "kotoba-api-registry/1.0" },
+    "entries": {
+      "type": "array",
+      "items": { "$ref": "entry.schema.json" }
+    }
+  }
+}

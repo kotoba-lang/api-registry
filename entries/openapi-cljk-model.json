@@ -1,0 +1,75 @@
+{
+  "id": "openapi-cljk-model",
+  "name": "OpenAPI EDN model and request builder",
+  "kind": "api-contract-library",
+  "description": "Portable Clojure/ClojureScript model, validation, JSON conversion and pure request construction for OpenAPI 3 contracts. Host injects HTTP effects.",
+  "source": {
+    "repository": "kotoba-lang/openapi",
+    "commit": "1d12ccc3eea8a65187c9db43483522b4ddf17013",
+    "ref": "main",
+    "files": [
+      {
+        "path": "README.md",
+        "role": "overview",
+        "mediaType": "text/markdown",
+        "sha256": "d9b61ecf47c0b5928aa8c092da404adaaf52ef02b06211f9f3ee2a78a7c57503",
+        "url": "https://github.com/kotoba-lang/openapi/blob/1d12ccc3eea8a65187c9db43483522b4ddf17013/README.md"
+      },
+      {
+        "path": "src/openapi/model.cljk",
+        "role": "model",
+        "mediaType": "text/plain",
+        "sha256": "501b0847e20740adc1e57402c1ad47baff66f5c3ab97b85a038e20ca26028490",
+        "url": "https://github.com/kotoba-lang/openapi/blob/1d12ccc3eea8a65187c9db43483522b4ddf17013/src/openapi/model.cljk"
+      },
+      {
+        "path": "src/openapi/validate.cljk",
+        "role": "validator",
+        "mediaType": "text/plain",
+        "sha256": "75e0d87cbcf1245c7ee8de30a032e9d1a671d510439f4ad3080a8eac74d7dae7",
+        "url": "https://github.com/kotoba-lang/openapi/blob/1d12ccc3eea8a65187c9db43483522b4ddf17013/src/openapi/validate.cljk"
+      },
+      {
+        "path": "src/openapi/json.cljk",
+        "role": "conversion",
+        "mediaType": "text/plain",
+        "sha256": "a95f5bbb1a7c92b4d0419fc54d373f9bdda17da05c5d677924207e58e85f8218",
+        "url": "https://github.com/kotoba-lang/openapi/blob/1d12ccc3eea8a65187c9db43483522b4ddf17013/src/openapi/json.cljk"
+      },
+      {
+        "path": "src/openapi/execute.cljk",
+        "role": "request-builder",
+        "mediaType": "text/plain",
+        "sha256": "3399380082ce4ea7ea8c8ef71b3ba034c8c32e8d2d4ad6ce6c44d00af5cf1138",
+        "url": "https://github.com/kotoba-lang/openapi/blob/1d12ccc3eea8a65187c9db43483522b4ddf17013/src/openapi/execute.cljk"
+      },
+      {
+        "path": "src/openapi/ports.cljk",
+        "role": "effect-port",
+        "mediaType": "text/plain",
+        "sha256": "026d8e609288342f3d7e621b19dee775d04e8b122b4b7c1a9b1c0b57e2fe623e",
+        "url": "https://github.com/kotoba-lang/openapi/blob/1d12ccc3eea8a65187c9db43483522b4ddf17013/src/openapi/ports.cljk"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI 3 data model",
+    "version": "3.x",
+    "maturity": "maintained-source",
+    "license": "Apache-2.0"
+  },
+  "effects": [
+    "pure-model-and-validation",
+    "request-construction-only",
+    "network-effect-requires-host-injected-port"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFilesHashCheckedAgainstLocalCheckout": true,
+    "contractParse": "not-applicable-library",
+    "tests": "not-run-in-this-registry-change",
+    "implementationConformance": "not-applicable",
+    "liveEndpoint": "not-applicable"
+  }
+}

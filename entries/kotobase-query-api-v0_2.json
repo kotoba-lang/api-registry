@@ -1,0 +1,47 @@
+{
+  "id": "kotobase-query-api-v0_2",
+  "name": "Kotobase Unified Query API",
+  "kind": "service-api-spec",
+  "description": "Read-only, language-neutral JSON query envelope for six Kotobase query families. Bearer authentication is declared by the spec.",
+  "source": {
+    "repository": "kotoba-lang/kotobase-sdk",
+    "commit": "818c67802af5f6d9ca62af5bfc81a538bdb753c4",
+    "ref": "main",
+    "files": [
+      {
+        "path": "spec/openapi.yaml",
+        "role": "openapi-specification",
+        "mediaType": "application/yaml",
+        "sha256": "bb63b0f70d27f20f72ea2319494a629730b20e84ccff65093913cf2aec3cd1ee",
+        "url": "https://github.com/kotoba-lang/kotobase-sdk/blob/818c67802af5f6d9ca62af5bfc81a538bdb753c4/spec/openapi.yaml"
+      },
+      {
+        "path": "README.md",
+        "role": "client-and-contract-overview",
+        "mediaType": "text/markdown",
+        "sha256": "a28c2f06c315fc89690df5e7cc4c74fc9911f4b6d9e8d1970e1e9742c096fc08",
+        "url": "https://github.com/kotoba-lang/kotobase-sdk/blob/818c67802af5f6d9ca62af5bfc81a538bdb753c4/README.md"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "0.2.0",
+    "maturity": "source-documented",
+    "license": "Apache-2.0"
+  },
+  "effects": [
+    "read-only-query",
+    "bearer-authentication"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFilesHashCheckedAgainstLocalCheckout": true,
+    "contractParse": "openapi-document-declared-3.1.0; formal-parser-not-run",
+    "tests": "not-run-in-this-registry-change",
+    "implementationConformance": "not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

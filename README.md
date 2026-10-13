@@ -1,0 +1,21 @@
+# Kotoba API Registry
+
+A curated discovery index for API contracts, protocols, client libraries and API implementations owned by `kotoba-lang`. It points to immutable owner-repository commits and selected source files; the owner repository remains the source of truth.
+
+This is separate from [kotoba-registry](https://github.com/kotoba-lang/kotoba-registry), which distributes installable skills and MCP definitions, and from [cloud-itonami/itonami-registry](https://github.com/cloud-itonami/itonami-registry), which catalogs reusable bot templates, workflows, skills, MCP connections and tool references. This registry contains no bot profile instances, credentials, MCP grants, runtime approvals, copied API implementations or claims that an endpoint is live.
+
+Start with [`llms.txt`](llms.txt), the generated [`index.json`](index.json), and the [ownership ADR](docs/adr/0001-api-registry-ownership.md). Each entry records type, maturity, effects, immutable commit, file SHA-256 and separate verification states. A declared OpenAPI `servers` URL is documentation only.
+
+## Validate
+
+```sh
+python3 scripts/build-index.py
+python3 scripts/build-index.py --check
+python3 scripts/verify-local-sources.py --kotoba-root ..
+```
+
+The local source verifier is optional for standalone registry consumers. It checks that pinned repositories and files in a neighboring Kotoba checkout match the recorded commit and SHA-256. It does not verify API behavior, compatibility, deployment, authentication success or authorization.
+
+## Adding entries
+
+Add one JSON file under `entries/`, following [`schemas/entry.schema.json`](schemas/entry.schema.json), then regenerate `index.json`. Prefer API contract and client assets with clear ownership and versioning. Keep effects and maturity explicit. Do not add secrets, environment-specific endpoints, profile configuration or copied source trees. Actor-family OpenAPI documents require source provenance, license and conformance review before admission.
