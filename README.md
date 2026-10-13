@@ -6,6 +6,8 @@ This is separate from [kotoba-registry](https://github.com/kotoba-lang/kotoba-re
 
 Start with [`llms.txt`](llms.txt), the generated [`index.json`](index.json), and the [ownership ADR](docs/adr/0001-api-registry-ownership.md). Each entry records type, maturity, effects, immutable commit, file SHA-256 and separate verification states. A declared OpenAPI `servers` URL is documentation only.
 
+The current catalog has **248 entries**: five reusable contract, protocol and SDK assets plus 243 owner-published clean-room actor API surfaces. Actor entries are source references; they do not verify equivalence with an external provider or claim a deployed endpoint.
+
 ## Validate
 
 ```sh

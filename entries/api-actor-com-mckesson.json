@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-mckesson",
+  "name": "mckesson clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI 3.1 surface published by kotoba-lang/com-mckesson for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-mckesson",
+    "commit": "5176d03990bbaaada0117fb45723aba12336ba4e",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "c0d859e1202d531bcb61260ef90c94ad6d169f7517ab4ed8a76c56f2e724a505",
+        "gitBlobSha": "4740bffa906c841347573185183967669c69489d",
+        "url": "https://github.com/kotoba-lang/com-mckesson/blob/5176d03990bbaaada0117fb45723aba12336ba4e/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 13,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-13",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 13 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

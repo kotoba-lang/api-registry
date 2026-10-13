@@ -50,7 +50,7 @@ class RegistryTests(unittest.TestCase):
     def test_actor_family_has_remote_source_only_evidence(self):
         index = json.loads((ROOT / "index.json").read_text())
         actors = [entry for entry in index["entries"] if entry["id"].startswith("api-actor-")]
-        self.assertEqual(len(actors), 240)
+        self.assertEqual(len(actors), 243)
         self.assertTrue(all(entry["kind"] == "api-implementation" for entry in actors))
         self.assertTrue(all(entry["contract"]["license"] == "Apache-2.0" for entry in actors))
         self.assertTrue(all(entry["operationCount"] > 0 for entry in actors))
@@ -58,7 +58,7 @@ class RegistryTests(unittest.TestCase):
         self.assertTrue(all(entry["verification"]["sourceHashMethod"] == "github-content-read-at-pinned-commit" for entry in actors))
         self.assertTrue(all(entry["verification"]["implementationConformance"] == "owner-described-only-not-verified" for entry in actors))
         self.assertTrue(all(entry["verification"]["liveEndpoint"] == "not-verified" for entry in actors))
-        self.assertEqual(Counter(entry["operationCount"] for entry in actors), Counter({13: 214, 11: 11, 12: 6, 9: 4, 7: 2, 15: 2, 17: 1}))
+        self.assertEqual(Counter(entry["operationCount"] for entry in actors), Counter({13: 217, 11: 11, 12: 6, 9: 4, 7: 2, 15: 2, 17: 1}))
 
 
 if __name__ == "__main__":
