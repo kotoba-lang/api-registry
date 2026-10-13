@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-freja-eid",
+  "name": "freja_eid clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI 3.1 surface published by kotoba-lang/com-freja-eid for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-freja-eid",
+    "commit": "a4b57ddb0995af15414268811474f605311d9b3b",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "ec56392970da3605179cae046fbca95989b7b42e965f521620ed78dd94c23a29",
+        "gitBlobSha": "18aeac4a635e20128a6316a83b117c6cc3ca56d3",
+        "url": "https://github.com/kotoba-lang/com-freja-eid/blob/a4b57ddb0995af15414268811474f605311d9b3b/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 13,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-13",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 13 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

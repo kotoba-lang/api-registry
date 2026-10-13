@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-itsme-norway",
+  "name": "itsme_norway clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI 3.1 surface published by kotoba-lang/com-itsme-norway for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-itsme-norway",
+    "commit": "c02c2fd1b57816b59ef335654c57ad9846cfb7c1",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "65b11dd05c287433ae9bb1db91e5fd44b859eaf3624ee4013e00239cc1eb2fbb",
+        "gitBlobSha": "ea5e02f58d21a2f3cb3873fb9f9260f7b0e38cb9",
+        "url": "https://github.com/kotoba-lang/com-itsme-norway/blob/c02c2fd1b57816b59ef335654c57ad9846cfb7c1/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 13,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-13",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 13 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

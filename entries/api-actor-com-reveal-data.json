@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-reveal-data",
+  "name": "reveal_data clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI 3.1 surface published by kotoba-lang/com-reveal-data for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-reveal-data",
+    "commit": "3fe0856d3faed7666f834613c5baaed2f3bb2666",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "bcda0027a7a6ab6ed10350513fbd538c15bbcbcb2df5d8f7897cad315fa8b8f5",
+        "gitBlobSha": "b99d7ae2e6cdb0aea12c367a01ab50d526f3b639",
+        "url": "https://github.com/kotoba-lang/com-reveal-data/blob/3fe0856d3faed7666f834613c5baaed2f3bb2666/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 13,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-13",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 13 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

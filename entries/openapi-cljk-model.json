@@ -66,11 +66,12 @@
   "verification": {
     "remoteDefaultBranch": "main",
     "remoteHeadMatchedPinnedCommit": true,
-    "sourceFilesHashCheckedAgainstLocalCheckout": true,
     "contractParse": "not-applicable-library",
     "tests": "not-run-in-this-registry-change",
     "implementationConformance": "not-applicable",
     "liveEndpoint": "not-applicable",
-    "checkedAt": "2026-10-13"
+    "checkedAt": "2026-10-13",
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "clean-tracked-local-checkout-at-pinned-commit"
   }
 }

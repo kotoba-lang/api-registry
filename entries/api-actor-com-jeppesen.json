@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-jeppesen",
+  "name": "jeppesen clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI 3.1 surface published by kotoba-lang/com-jeppesen for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-jeppesen",
+    "commit": "2e2338e8d7d42b35ad28ae9c8491af7ec04a6022",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "747797df070108a920b0b000fe675c0a8ffc9fb300be3c8c4b82f8ae21e12789",
+        "gitBlobSha": "ec353bbf35c3929a01712a658057319ae64ecf3b",
+        "url": "https://github.com/kotoba-lang/com-jeppesen/blob/2e2338e8d7d42b35ad28ae9c8491af7ec04a6022/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 13,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-13",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 13 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-bluefin-robotics",
+  "name": "bluefin_robotics clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI 3.1 surface published by kotoba-lang/com-bluefin-robotics for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-bluefin-robotics",
+    "commit": "dd6cc458196a79ca300e1a77c90b7e2ac9f3472c",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "24355084b0203fe28c4529c5a824650629db8620ef6e9d9a64f9dd99b7b26ffa",
+        "gitBlobSha": "0447ceb8d2bc041f7542251e22bc763981fe35dd",
+        "url": "https://github.com/kotoba-lang/com-bluefin-robotics/blob/dd6cc458196a79ca300e1a77c90b7e2ac9f3472c/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 13,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-13",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 13 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

@@ -1,4 +1,5 @@
 import json
+from collections import Counter
 import re
 import unittest
 from pathlib import Path
@@ -30,10 +31,12 @@ class RegistryTests(unittest.TestCase):
             self.assertTrue(source["repository"].startswith("kotoba-lang/"))
             for source_file in source["files"]:
                 self.assertRegex(source_file["sha256"], r"^[0-9a-f]{64}$")
+                if "gitBlobSha" in source_file:
+                    self.assertRegex(source_file["gitBlobSha"], r"^[0-9a-f]{40}$")
                 expected = f"https://github.com/{source['repository']}/blob/{source['commit']}/{source_file['path']}"
                 self.assertEqual(source_file["url"], expected)
             self.assertRegex(entry["verification"]["checkedAt"], r"^2026-10-13$")
-            self.assertTrue(all(key in entry["verification"] for key in ("tests", "implementationConformance", "liveEndpoint")))
+            self.assertTrue(all(key in entry["verification"] for key in ("sourceFileHashesVerified", "sourceHashMethod", "tests", "implementationConformance", "liveEndpoint")))
             for related in entry.get("relatedEntries", []):
                 self.assertIn(related, ids)
 
@@ -43,6 +46,19 @@ class RegistryTests(unittest.TestCase):
         for entry in index["entries"]:
             self.assertTrue(forbidden.isdisjoint(entry))
             self.assertNotIn("endpoint", entry)
+
+    def test_actor_family_has_remote_source_only_evidence(self):
+        index = json.loads((ROOT / "index.json").read_text())
+        actors = [entry for entry in index["entries"] if entry["id"].startswith("api-actor-")]
+        self.assertEqual(len(actors), 240)
+        self.assertTrue(all(entry["kind"] == "api-implementation" for entry in actors))
+        self.assertTrue(all(entry["contract"]["license"] == "Apache-2.0" for entry in actors))
+        self.assertTrue(all(entry["operationCount"] > 0 for entry in actors))
+        self.assertTrue(all("operation-effects-unclassified" in entry["effects"] for entry in actors))
+        self.assertTrue(all(entry["verification"]["sourceHashMethod"] == "github-content-read-at-pinned-commit" for entry in actors))
+        self.assertTrue(all(entry["verification"]["implementationConformance"] == "owner-described-only-not-verified" for entry in actors))
+        self.assertTrue(all(entry["verification"]["liveEndpoint"] == "not-verified" for entry in actors))
+        self.assertEqual(Counter(entry["operationCount"] for entry in actors), Counter({13: 214, 11: 11, 12: 6, 9: 4, 7: 2, 15: 2, 17: 1}))
 
 
 if __name__ == "__main__":

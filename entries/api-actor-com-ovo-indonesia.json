@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-ovo-indonesia",
+  "name": "ovo_indonesia clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI 3.1 surface published by kotoba-lang/com-ovo-indonesia for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-ovo-indonesia",
+    "commit": "9e41d5fe0987635fc3a5f744e421bc5f31ab1fd5",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "d93ecf7065d4a123483f45ac98ac502d5cb5514ce8f20ecd3cab15d7bce3f362",
+        "gitBlobSha": "ea54d9057bd600030c2b5aa7540d980c02f36c3c",
+        "url": "https://github.com/kotoba-lang/com-ovo-indonesia/blob/9e41d5fe0987635fc3a5f744e421bc5f31ab1fd5/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 13,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-13",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 13 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

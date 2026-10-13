@@ -1,7 +1,7 @@
 # Kotoba API Registry consumption contract
 
-Read one registry commit and select entries by `kind`, contract version and maturity. The `source.commit` pins the owner repository snapshot. Verify each `source.files[].sha256` against the bytes at that commit before relying on the recorded source.
+Read one registry commit and select entries by `kind`, contract version and maturity. The `source.commit` pins the owner repository snapshot. Verify each `source.files[].sha256` against the bytes at that commit before relying on the recorded source. `gitBlobSha`, when present, is the corresponding Git object identity returned by GitHub.
 
-`verification` fields describe only the named check. `checkedAt` dates the source-head observation. `remoteHeadMatchedPinnedCommit` means the selected source commit matched the public default branch on that date; it is not a permanent claim about that branch. `tests`, `implementationConformance` and `liveEndpoint` are independent evidence. Unknown or unverified does not imply failure or success.
+`verification` fields describe only the named check. `checkedAt` dates the source-head observation. `remoteHeadMatchedPinnedCommit` means the selected source commit matched the public default branch on that date; it is not a permanent claim about that branch. `sourceHashMethod` distinguishes bytes read from a clean, tracked local checkout at that commit from bytes fetched directly from GitHub at that commit. `tests`, `implementationConformance` and `liveEndpoint` are independent evidence. Unknown or unverified does not imply failure or success.
 
 The catalog is discovery metadata. It does not grant access, credentials, capability, deployment, payment authority or endpoint health. Use the owning repository and current service policy for execution decisions.

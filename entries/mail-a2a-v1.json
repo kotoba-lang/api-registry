@@ -45,11 +45,12 @@
   "verification": {
     "remoteDefaultBranch": "main",
     "remoteHeadMatchedPinnedCommit": true,
-    "sourceFilesHashCheckedAgainstLocalCheckout": true,
     "contractParse": "machine-schema-json-parse-checked",
     "tests": "not-run-in-this-registry-change",
     "implementationConformance": "not-applicable-specification-only",
     "liveEndpoint": "not-applicable-specification-only",
-    "checkedAt": "2026-10-13"
+    "checkedAt": "2026-10-13",
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "clean-tracked-local-checkout-at-pinned-commit"
   }
 }

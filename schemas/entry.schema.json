@@ -65,7 +65,7 @@
               "path",
               "role",
               "mediaType",
-              "sha256",
+        "sha256",
               "url"
             ],
             "properties": {
@@ -82,6 +82,10 @@
                 "type": "string",
                 "pattern": "^[0-9a-f]{64}$"
               },
+        "gitBlobSha": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        },
               "url": {
                 "type": "string",
                 "format": "uri"
@@ -118,6 +122,10 @@
         }
       }
     },
+    "operationCount": {
+      "type": "integer",
+      "minimum": 0
+    },
     "relatedEntries": {
       "type": "array",
       "items": {
@@ -137,7 +145,8 @@
         "remoteDefaultBranch",
         "checkedAt",
         "remoteHeadMatchedPinnedCommit",
-        "sourceFilesHashCheckedAgainstLocalCheckout",
+        "sourceFileHashesVerified",
+        "sourceHashMethod",
         "contractParse",
         "tests",
         "implementationConformance",
@@ -154,8 +163,11 @@
         "remoteHeadMatchedPinnedCommit": {
           "type": "boolean"
         },
-        "sourceFilesHashCheckedAgainstLocalCheckout": {
+        "sourceFileHashesVerified": {
           "type": "boolean"
+        },
+        "sourceHashMethod": {
+          "enum": ["clean-tracked-local-checkout-at-pinned-commit", "github-content-read-at-pinned-commit"]
         },
         "contractParse": {
           "type": "string"

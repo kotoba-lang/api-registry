@@ -22,4 +22,4 @@ Entries distinguish `api-contract-library`, `protocol-spec`, `service-api-spec`,
 
 ## Initial curation
 
-The first five entries cover one OpenAPI contract library, one experimental protocol binding, two Kotobase API specifications and the multi-language Kotobase SDK. The 240 root-level OpenAPI actor candidates identified in the local 2026-10-13 inventory are not bulk-imported: 56 lack local Git metadata, 35 have no local LICENSE or NOTICE, and the family needs per-source provenance and conformance review. Candidate inventory remains in the accompanying review workspace until its remote sources are checked.
+The initial 245 entries cover one OpenAPI contract library, one experimental protocol binding, two Kotobase API specifications, the multi-language Kotobase SDK and 240 owner-published OpenAPI surfaces for clean-room compatibility actors. Every actor reference pins its public `main` commit and file digest. It records the owner's declaration only; no provider equivalence, runtime behavior, conformance, deployment or availability is asserted. The 240 sources were rechecked remotely on 2026-10-13 after the prior local inventory proved incomplete.

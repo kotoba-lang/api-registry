@@ -3,8 +3,11 @@ import argparse,hashlib,json,subprocess,sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 def main():
- p=argparse.ArgumentParser();p.add_argument("--kotoba-root",type=Path,required=True);a=p.parse_args();root=a.kotoba_root.resolve();index=json.loads((ROOT/"index.json").read_text());errors=[];checked=0
- for e in index["entries"]:
+ p=argparse.ArgumentParser();p.add_argument("--kotoba-root",type=Path,required=True);p.add_argument("--entry",action="append",help="Limit verification to one or more entry IDs");a=p.parse_args();root=a.kotoba_root.resolve();index=json.loads((ROOT/"index.json").read_text());errors=[];checked=0;skipped=[]
+ selected=[e for e in index["entries"] if not a.entry or e["id"] in a.entry]
+ missing=set(a.entry or [])-{e["id"] for e in selected}
+ if missing: print("unknown entry IDs: "+", ".join(sorted(missing)),file=sys.stderr);return 2
+ for e in selected:
   repo=e["source"]["repository"].split("/",1)[1]; checkout=root/repo
   if not checkout.is_dir(): errors.append(f"{repo}: checkout missing");continue
   head=subprocess.run(["git","-C",str(checkout),"rev-parse","HEAD"],capture_output=True,text=True)
@@ -21,6 +24,6 @@ def main():
    else: checked+=1
  if errors:
   print("\n".join(errors),file=sys.stderr);return 1
- print(f"verified {checked} files across {len(index['entries'])} entries at pinned local heads")
+ print(f"verified {checked} files across {len(selected)} selected entries at pinned local heads")
  return 0
 if __name__=="__main__":raise SystemExit(main())

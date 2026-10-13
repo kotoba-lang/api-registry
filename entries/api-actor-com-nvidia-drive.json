@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-nvidia-drive",
+  "name": "nvidia_drive clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI 3.1 surface published by kotoba-lang/com-nvidia-drive for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-nvidia-drive",
+    "commit": "70f4a1ca71aca8021b0f82cdfdddf86d876c18d3",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "dc0802abaa81e35f21fdf08d1d40ae04229bbf92983b2123ff7263778872d90f",
+        "gitBlobSha": "d34ffc818f6a149c0b6f73c5c56d50552bc75f1f",
+        "url": "https://github.com/kotoba-lang/com-nvidia-drive/blob/70f4a1ca71aca8021b0f82cdfdddf86d876c18d3/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 13,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-13",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 13 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

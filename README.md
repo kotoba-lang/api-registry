@@ -11,11 +11,11 @@ Start with [`llms.txt`](llms.txt), the generated [`index.json`](index.json), and
 ```sh
 python3 scripts/build-index.py
 python3 scripts/build-index.py --check
-python3 scripts/verify-local-sources.py --kotoba-root ..
+python3 scripts/verify-local-sources.py --kotoba-root .. --entry openapi-cljk-model
 ```
 
-The local source verifier is optional for standalone registry consumers. It checks that pinned repositories and files in a neighboring Kotoba checkout match the recorded commit and SHA-256. It does not verify API behavior, compatibility, deployment, authentication success or authorization.
+The local source verifier is optional for standalone registry consumers. Pass `--entry` to select assets whose source repositories are present in a neighboring Kotoba checkout. It checks that pinned repositories and files match the recorded commit and SHA-256. It does not verify API behavior, compatibility, deployment, authentication success or authorization.
 
 ## Adding entries
 
-Add one JSON file under `entries/`, following [`schemas/entry.schema.json`](schemas/entry.schema.json), then regenerate `index.json`. Prefer API contract and client assets with clear ownership and versioning. Keep effects and maturity explicit. Do not add secrets, environment-specific endpoints, profile configuration or copied source trees. Actor-family OpenAPI documents require source provenance, license and conformance review before admission.
+Add one JSON file under `entries/`, following [`schemas/entry.schema.json`](schemas/entry.schema.json), then regenerate `index.json`. Prefer API contract and client assets with clear ownership and versioning. Keep effects and maturity explicit. Do not add secrets, environment-specific endpoints, profile configuration or copied source trees. Actor-family API entries are declarations from their owner repositories; they do not certify compatibility or runtime behavior.

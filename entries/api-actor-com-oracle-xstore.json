@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-oracle-xstore",
+  "name": "oracle_xstore clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI 3.1 surface published by kotoba-lang/com-oracle-xstore for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-oracle-xstore",
+    "commit": "c7444ca9dc5afee5ff2723947e48e74804e1f7cd",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "de4dfc3cd0f5c8fdf37acdc704a0767f02ffe005ef37127e5ba46a50c869de0a",
+        "gitBlobSha": "9eb9bda928bd27bd993d75245eaf23f0783aecf0",
+        "url": "https://github.com/kotoba-lang/com-oracle-xstore/blob/c7444ca9dc5afee5ff2723947e48e74804e1f7cd/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 13,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-13",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 13 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}
