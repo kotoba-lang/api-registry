@@ -43,6 +43,7 @@
     "contractParse": "openapi-document-declared-3.1.0; formal-parser-not-run",
     "tests": "not-run-in-this-registry-change",
     "implementationConformance": "not-verified",
-    "liveEndpoint": "not-verified"
+    "liveEndpoint": "not-verified",
+    "checkedAt": "2026-10-13"
   }
 }

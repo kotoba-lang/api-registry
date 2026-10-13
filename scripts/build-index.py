@@ -20,7 +20,7 @@ def load_entries():
   if e["kind"] not in allowed_kinds: raise ValueError(f"{e['id']}: unsupported kind {e['kind']}")
   if not e["name"].strip() or not e["description"].strip(): raise ValueError(f"{e['id']}: name and description must not be empty")
   if not all(e["contract"].get(k) for k in ("format","version","maturity","license")): raise ValueError(f"{e['id']}: incomplete contract metadata")
-  if not all(k in e["verification"] for k in ("remoteDefaultBranch","remoteHeadMatchedPinnedCommit","sourceFilesHashCheckedAgainstLocalCheckout","contractParse","tests","implementationConformance","liveEndpoint")): raise ValueError(f"{e['id']}: incomplete verification metadata")
+  if not all(k in e["verification"] for k in ("remoteDefaultBranch","checkedAt","remoteHeadMatchedPinnedCommit","sourceFilesHashCheckedAgainstLocalCheckout","contractParse","tests","implementationConformance","liveEndpoint")): raise ValueError(f"{e['id']}: incomplete verification metadata")
   if not re.fullmatch(r"[0-9a-f]{40}", e.get("source",{}).get("commit", "")): raise ValueError(f"{e['id']}: source commit must be pinned")
   if not e["source"].get("files"): raise ValueError(f"{e['id']}: source files required")
   for f in e["source"]["files"]:

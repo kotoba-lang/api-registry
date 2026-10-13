@@ -32,6 +32,7 @@ class RegistryTests(unittest.TestCase):
                 self.assertRegex(source_file["sha256"], r"^[0-9a-f]{64}$")
                 expected = f"https://github.com/{source['repository']}/blob/{source['commit']}/{source_file['path']}"
                 self.assertEqual(source_file["url"], expected)
+            self.assertRegex(entry["verification"]["checkedAt"], r"^2026-10-13$")
             self.assertTrue(all(key in entry["verification"] for key in ("tests", "implementationConformance", "liveEndpoint")))
             for related in entry.get("relatedEntries", []):
                 self.assertIn(related, ids)

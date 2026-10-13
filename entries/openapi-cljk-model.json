@@ -70,6 +70,7 @@
     "contractParse": "not-applicable-library",
     "tests": "not-run-in-this-registry-change",
     "implementationConformance": "not-applicable",
-    "liveEndpoint": "not-applicable"
+    "liveEndpoint": "not-applicable",
+    "checkedAt": "2026-10-13"
   }
 }

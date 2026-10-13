@@ -46,7 +46,8 @@
         "contractParse": "openapi-document-declared-3.1.0; formal-parser-not-run",
         "tests": "not-run-in-this-registry-change",
         "implementationConformance": "not-verified",
-        "liveEndpoint": "not-verified"
+        "liveEndpoint": "not-verified",
+        "checkedAt": "2026-10-13"
       }
     },
     {
@@ -93,7 +94,8 @@
         "contractParse": "openapi-document-declared-3.1.0; formal-parser-not-run",
         "tests": "not-run-in-this-registry-change",
         "implementationConformance": "not-verified",
-        "liveEndpoint": "not-verified"
+        "liveEndpoint": "not-verified",
+        "checkedAt": "2026-10-13"
       }
     },
     {
@@ -164,7 +166,8 @@
         "contractParse": "not-applicable-client",
         "tests": "not-run-in-this-registry-change",
         "implementationConformance": "not-verified",
-        "liveEndpoint": "not-verified"
+        "liveEndpoint": "not-verified",
+        "checkedAt": "2026-10-13"
       }
     },
     {
@@ -218,7 +221,8 @@
         "contractParse": "machine-schema-json-parse-checked",
         "tests": "not-run-in-this-registry-change",
         "implementationConformance": "not-applicable-specification-only",
-        "liveEndpoint": "not-applicable-specification-only"
+        "liveEndpoint": "not-applicable-specification-only",
+        "checkedAt": "2026-10-13"
       }
     },
     {
@@ -293,7 +297,8 @@
         "contractParse": "not-applicable-library",
         "tests": "not-run-in-this-registry-change",
         "implementationConformance": "not-applicable",
-        "liveEndpoint": "not-applicable"
+        "liveEndpoint": "not-applicable",
+        "checkedAt": "2026-10-13"
       }
     }
   ]

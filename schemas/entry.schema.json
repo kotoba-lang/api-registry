@@ -135,6 +135,7 @@
       "additionalProperties": false,
       "required": [
         "remoteDefaultBranch",
+        "checkedAt",
         "remoteHeadMatchedPinnedCommit",
         "sourceFilesHashCheckedAgainstLocalCheckout",
         "contractParse",
@@ -145,6 +146,10 @@
       "properties": {
         "remoteDefaultBranch": {
           "type": "string"
+        },
+        "checkedAt": {
+          "type": "string",
+          "format": "date"
         },
         "remoteHeadMatchedPinnedCommit": {
           "type": "boolean"
