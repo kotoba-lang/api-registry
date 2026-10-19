@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-noaa-goes",
+  "name": "com_noaa_goes clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-noaa-goes for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-noaa-goes",
+    "commit": "0944cc95253a97c1624c698aa6158f3d11ee78b5",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "c3d1a90f7ea25bdf73497042cb6267beb3b4608715c0e0ebeec06ffed7bd1c92",
+        "gitBlobSha": "e8dbca37ea22846a2d44420bee69455a7162f78d",
+        "url": "https://github.com/kotoba-lang/com-noaa-goes/blob/0944cc95253a97c1624c698aa6158f3d11ee78b5/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 31,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 31 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

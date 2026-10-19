@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-asimov",
+  "name": "com_asimov clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-asimov for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-asimov",
+    "commit": "20760c51ed2ae222c9b1064f50ec10291332fe23",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "aeb78159c924cabeb27747bb38716a8c535e43015d08e4b14314f76a62eeff25",
+        "gitBlobSha": "f8362177a726aaf1ca2c0e49bff04a33e8dc4c3a",
+        "url": "https://github.com/kotoba-lang/com-asimov/blob/20760c51ed2ae222c9b1064f50ec10291332fe23/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 31,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 31 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

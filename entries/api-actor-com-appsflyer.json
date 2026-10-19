@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-appsflyer",
+  "name": "com_appsflyer clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-appsflyer for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-appsflyer",
+    "commit": "b6a61a827d7f649445d4e83588bece3ee5c70f2e",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "d90f2c5e1cbb16dd513d94c2074afab32968cd13faa7f9ef6386a14734dd7776",
+        "gitBlobSha": "1e2ce5a07813ec1801ed064d0b9d0507b6940f0d",
+        "url": "https://github.com/kotoba-lang/com-appsflyer/blob/b6a61a827d7f649445d4e83588bece3ee5c70f2e/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 31,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 31 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

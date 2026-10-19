@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-binance",
+  "name": "com_binance clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-binance for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-binance",
+    "commit": "e728a69a1c31f7e26680ea579b687ff30f0f15f1",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "8c7a2a3492aaf5674de46bb77d1b2b2c443d8d2a901eb44a24362025eb0fe62e",
+        "gitBlobSha": "d0379a92b1ddb5df31372c2b5bc6d376f447dad5",
+        "url": "https://github.com/kotoba-lang/com-binance/blob/e728a69a1c31f7e26680ea579b687ff30f0f15f1/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 31,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 31 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

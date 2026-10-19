@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-e2open",
+  "name": "com_e2open clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-e2open for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-e2open",
+    "commit": "b0371076a1a1725b1046c9ed597999947946df58",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "59f61a42d738943a667bfc7deb98c5f94fbf1aa9a83d58d5849038dd47b6dc2d",
+        "gitBlobSha": "6ffa24ba2aa656e5a6f300a2578fc6e0d91b3238",
+        "url": "https://github.com/kotoba-lang/com-e2open/blob/b0371076a1a1725b1046c9ed597999947946df58/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 31,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 31 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

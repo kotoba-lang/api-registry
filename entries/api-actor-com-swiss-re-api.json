@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-swiss-re-api",
+  "name": "com_swiss_re_api clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-swiss-re-api for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-swiss-re-api",
+    "commit": "28692e1461a0effd687c806d91c7fe262fe0a6fe",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "bff4a02a4a3bff4ccf901afb3fc17fc48a9445d54bb2432aa7a683bcc1ead963",
+        "gitBlobSha": "cecdcde51506ce47b119f8bae39b14ea1ae7e330",
+        "url": "https://github.com/kotoba-lang/com-swiss-re-api/blob/28692e1461a0effd687c806d91c7fe262fe0a6fe/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 31,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 31 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

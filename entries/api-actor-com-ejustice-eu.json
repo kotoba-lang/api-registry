@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-ejustice-eu",
+  "name": "com_ejustice_eu clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-ejustice-eu for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-ejustice-eu",
+    "commit": "0071dde19a6e1c028aa19b0729022d8e2f4a4818",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "202aad9c1f27f72e523eb5059cf87ee1567354fe1eb3c76b5925ea630abdcb1c",
+        "gitBlobSha": "f6237b52afabffc220e8cef1935a9c26f5386e91",
+        "url": "https://github.com/kotoba-lang/com-ejustice-eu/blob/0071dde19a6e1c028aa19b0729022d8e2f4a4818/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 31,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 31 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

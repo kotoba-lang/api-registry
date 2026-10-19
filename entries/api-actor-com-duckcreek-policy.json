@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-duckcreek-policy",
+  "name": "com_duckcreek_policy clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-duckcreek-policy for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-duckcreek-policy",
+    "commit": "f8ab4b238f59c07e626bc65edc88d9df74c893b1",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "e701e7816e4e023c1bba9db6ff455c226a139dc9b778fe1ae27d5cf60d9d4baf",
+        "gitBlobSha": "f36c89c80bdb91f7339bc7d8d019fed6c4309042",
+        "url": "https://github.com/kotoba-lang/com-duckcreek-policy/blob/f8ab4b238f59c07e626bc65edc88d9df74c893b1/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 31,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 31 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

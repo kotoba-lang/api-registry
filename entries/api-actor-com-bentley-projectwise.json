@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-bentley-projectwise",
+  "name": "com_bentley_projectwise clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-bentley-projectwise for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-bentley-projectwise",
+    "commit": "672937d99996c6b0cabb5f4b5bdf4f2bde3381f4",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "100c5852d49ea21520f7f5be24559a6026c6dcf1a2a7c95c57ac1ffdb0f44adb",
+        "gitBlobSha": "584fd2e823b5e84c8eb6fd0d3f58aeaf71b4cd3c",
+        "url": "https://github.com/kotoba-lang/com-bentley-projectwise/blob/672937d99996c6b0cabb5f4b5bdf4f2bde3381f4/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 31,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 31 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

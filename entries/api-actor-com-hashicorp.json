@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-hashicorp",
+  "name": "com_hashicorp clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-hashicorp for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-hashicorp",
+    "commit": "cdd98f56a931fd4078c4c52aa1fcf9a1cd9e1a20",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "cfec9c17e35873bb8642f4365f14ad4cfdb2bd763831b9b9a6e862356e4560e6",
+        "gitBlobSha": "c7bedccd8ca7df5d304cb07892cfa05f75d645ae",
+        "url": "https://github.com/kotoba-lang/com-hashicorp/blob/cdd98f56a931fd4078c4c52aa1fcf9a1cd9e1a20/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 31,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 31 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

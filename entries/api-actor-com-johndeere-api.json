@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-johndeere-api",
+  "name": "com_johndeere_api clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-johndeere-api for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-johndeere-api",
+    "commit": "3d1da8b68e7d6997a5ffcca49d80bf920f5d99a8",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "25aed60cb8563caf61fbf874b657e729434057b16956d7fd08701a0b0cc64036",
+        "gitBlobSha": "1bbf16e9ebbc9b79fb3065f4a34f40063e46cf50",
+        "url": "https://github.com/kotoba-lang/com-johndeere-api/blob/3d1da8b68e7d6997a5ffcca49d80bf920f5d99a8/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 31,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 31 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-express-scripts",
+  "name": "com_express_scripts clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-express-scripts for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-express-scripts",
+    "commit": "d0c0a3e9a02dc83e5e8da9ffa8a83a75a72c292f",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "c3d34b9eed2131e2094aa8f4cdcd9ded8f9afa6fb3f60a8a317b0d991d2798da",
+        "gitBlobSha": "662a53bd1e752b89aecbce0ad7c362647f447955",
+        "url": "https://github.com/kotoba-lang/com-express-scripts/blob/d0c0a3e9a02dc83e5e8da9ffa8a83a75a72c292f/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 31,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 31 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

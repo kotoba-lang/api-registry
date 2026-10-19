@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-dana-indonesia",
+  "name": "com_dana_indonesia clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-dana-indonesia for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-dana-indonesia",
+    "commit": "2d57cfc47962eba19f756a3462099d2ef09cbfe6",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "d127e5c4bb3d02723db079991b0cd5f523ae9877937210b31ed984afa1ae0d8a",
+        "gitBlobSha": "173ddbdf1a104d9e2df30a40d002ef49b48a9976",
+        "url": "https://github.com/kotoba-lang/com-dana-indonesia/blob/2d57cfc47962eba19f756a3462099d2ef09cbfe6/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 31,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 31 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

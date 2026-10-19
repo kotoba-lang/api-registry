@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-bsi-standards",
+  "name": "com_bsi_standards clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-bsi-standards for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-bsi-standards",
+    "commit": "2b8f055596dd7d428d4c25a26e3f4c33091f92c9",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "bff5b7ebe3e8d03a7e00f242c01f9d59bae81c97b8ad9a7b68eb74be290133eb",
+        "gitBlobSha": "50ebc15d605aa24a261a603a3c7acda4e127ba52",
+        "url": "https://github.com/kotoba-lang/com-bsi-standards/blob/2b8f055596dd7d428d4c25a26e3f4c33091f92c9/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 31,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 31 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

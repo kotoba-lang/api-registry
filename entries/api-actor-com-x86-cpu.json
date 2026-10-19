@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-x86-cpu",
+  "name": "com_x86_cpu clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-x86-cpu for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-x86-cpu",
+    "commit": "f6f2a1ca10f5678f9f5d1e80ff3dc6a8a0ee2d92",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "3b3111a99e12c364bb7810d3e1a9d2cab13ec4269fba60be28bc7f62146a4d2e",
+        "gitBlobSha": "66a1bf1234940d04c7b2d8b5286dd9f14274222e",
+        "url": "https://github.com/kotoba-lang/com-x86-cpu/blob/f6f2a1ca10f5678f9f5d1e80ff3dc6a8a0ee2d92/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 30,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 30 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

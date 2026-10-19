@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-gs1-epcis",
+  "name": "com_gs1_epcis clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-gs1-epcis for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-gs1-epcis",
+    "commit": "cb6cb65b53c35e5b315ac8b17d4a967711d8f587",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "2f390179e7f0bfebb217c80944c149a234f01f6d8a76ea0570b49cfd46b6ed18",
+        "gitBlobSha": "0e9f72403f1b510ea5cb46ab539d620c92a1dec5",
+        "url": "https://github.com/kotoba-lang/com-gs1-epcis/blob/cb6cb65b53c35e5b315ac8b17d4a967711d8f587/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 31,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 31 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

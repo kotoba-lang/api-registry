@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-oracle-aconex",
+  "name": "com_oracle_aconex clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-oracle-aconex for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-oracle-aconex",
+    "commit": "603de007e25604efc57411de7e3783a2cfa43ac1",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "b2689c8c0c7b53a2b28db72d6ef5bd16b2bac7d7b23d81b7d56d6b9e7304d5f2",
+        "gitBlobSha": "9147984a2bec411e01c4f433c92c7b42577a86d5",
+        "url": "https://github.com/kotoba-lang/com-oracle-aconex/blob/603de007e25604efc57411de7e3783a2cfa43ac1/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 31,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 31 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

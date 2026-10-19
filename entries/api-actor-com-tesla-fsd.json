@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-tesla-fsd",
+  "name": "com_tesla_fsd clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-tesla-fsd for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-tesla-fsd",
+    "commit": "210345c5069b659bf2d845faf204b0e0eae3e0de",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "8a84b0c53805eccefd832a7f83a9c0843014f3b74019b1483fda0e7d5085b373",
+        "gitBlobSha": "b9512e90ad64ec30a5ec0ebc9dbedfd4ce3e22ba",
+        "url": "https://github.com/kotoba-lang/com-tesla-fsd/blob/210345c5069b659bf2d845faf204b0e0eae3e0de/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 31,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 31 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

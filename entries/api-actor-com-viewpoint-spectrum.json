@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-viewpoint-spectrum",
+  "name": "com_viewpoint_spectrum clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-viewpoint-spectrum for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-viewpoint-spectrum",
+    "commit": "ff8c9930804a79165cb309121ffda42718f1e4c6",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "c76ab670476d86f1a4fa0ce66972c16314439ff3aaee4ab1042d16877ce538dc",
+        "gitBlobSha": "24d0a185b8266c9918fe0ab51246c9f44b21af4b",
+        "url": "https://github.com/kotoba-lang/com-viewpoint-spectrum/blob/ff8c9930804a79165cb309121ffda42718f1e4c6/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 31,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 31 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

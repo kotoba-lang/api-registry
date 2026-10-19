@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-rolls-royce-flight",
+  "name": "com_rolls_royce_flight clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-rolls-royce-flight for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-rolls-royce-flight",
+    "commit": "ba2cae6c9a7672db699ecb4077a5a3c61ee6658d",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "068af37442051fe5afedc74e6b65aa337cd0b43cab836b2ac24c5a08fb90c3eb",
+        "gitBlobSha": "bebf2bff298455112a20645adfac6b8bddba6829",
+        "url": "https://github.com/kotoba-lang/com-rolls-royce-flight/blob/ba2cae6c9a7672db699ecb4077a5a3c61ee6658d/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 31,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 31 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

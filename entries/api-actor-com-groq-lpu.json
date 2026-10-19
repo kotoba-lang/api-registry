@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-groq-lpu",
+  "name": "com_groq_lpu clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-groq-lpu for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-groq-lpu",
+    "commit": "c0032f4a586985c5a9ea93261e4cf96edfeea02c",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "e5f8410e71fdc38847cc5104a220c1d32190a8db97ce96515be1cf35e5ad1728",
+        "gitBlobSha": "948a024ac3335dd9edf9ba2aae87e6a2d9a99c9d",
+        "url": "https://github.com/kotoba-lang/com-groq-lpu/blob/c0032f4a586985c5a9ea93261e4cf96edfeea02c/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 30,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 30 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

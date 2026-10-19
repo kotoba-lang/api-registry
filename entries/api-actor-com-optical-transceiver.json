@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-optical-transceiver",
+  "name": "com_optical_transceiver clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-optical-transceiver for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-optical-transceiver",
+    "commit": "1db81e52ca9176afc5dbefee9ddc9c31b09fca29",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "5d1c6df9b2fd6370f9020d1f2ee5323a978df10a79ca64924259559c26f549a2",
+        "gitBlobSha": "9f161dede8609bc05e86c8d92f4ec543b6fcf75a",
+        "url": "https://github.com/kotoba-lang/com-optical-transceiver/blob/1db81e52ca9176afc5dbefee9ddc9c31b09fca29/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 30,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 30 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-recordedfuture",
+  "name": "com_recordedfuture clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-recordedfuture for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-recordedfuture",
+    "commit": "9a44471ea0dbf715ae3a1a256cff4e77421ff564",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "4ae29c44a9d5b53f7e283e0881562421003b3cd0ecd9a7e833f3b04f47ec1c52",
+        "gitBlobSha": "2e9ba0a59a2f45ec2176caa829e3dbb7ec0daab1",
+        "url": "https://github.com/kotoba-lang/com-recordedfuture/blob/9a44471ea0dbf715ae3a1a256cff4e77421ff564/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 31,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 31 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

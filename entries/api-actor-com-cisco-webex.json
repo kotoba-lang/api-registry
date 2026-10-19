@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-cisco-webex",
+  "name": "com_cisco_webex clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-cisco-webex for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-cisco-webex",
+    "commit": "5c420e76bde6855d5f53c0c9ed6ce890b9f3a2bf",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "3909f304cd24e18fa31a4d7f689448b5047db97e0ef0e1aef7ca551056ba55c9",
+        "gitBlobSha": "9abb2ad9fcd89540651385170ac9b6eb2938f0b5",
+        "url": "https://github.com/kotoba-lang/com-cisco-webex/blob/5c420e76bde6855d5f53c0c9ed6ce890b9f3a2bf/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 31,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 31 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

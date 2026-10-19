@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-unity-api-services",
+  "name": "com_unity_api_services clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-unity-api-services for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-unity-api-services",
+    "commit": "49f02487f5802fe9d934da6c4980106c0e0f6542",
+    "ref": "rescue/uncommitted-mcp-adapter-20260725",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "5705fed01bd557216ddabed8a210e4122170b5d47123df3b80a3de07d3ff205c",
+        "gitBlobSha": "035665e93f5fb93dbe86cb784688fce462a69fbd",
+        "url": "https://github.com/kotoba-lang/com-unity-api-services/blob/49f02487f5802fe9d934da6c4980106c0e0f6542/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 31,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "rescue/uncommitted-mcp-adapter-20260725",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 31 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

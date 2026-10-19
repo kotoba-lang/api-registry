@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-yokogawa-cx",
+  "name": "com_yokogawa_cx clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-yokogawa-cx for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-yokogawa-cx",
+    "commit": "7e3758b6c44424f1b368b3707d9802989328ccbe",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "5edb537dda6d1833029fc7f808ae682fadb2da77ace328bd801f754fa9dd11eb",
+        "gitBlobSha": "e0d714ed3d6cc472f6d37e65cde3ca5b51d874f5",
+        "url": "https://github.com/kotoba-lang/com-yokogawa-cx/blob/7e3758b6c44424f1b368b3707d9802989328ccbe/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 31,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 31 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-copernicus-sentinel",
+  "name": "com_copernicus_sentinel clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-copernicus-sentinel for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-copernicus-sentinel",
+    "commit": "e40772cd3552de19c2237d91557afc2ac36decf4",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "8181093085cbfa121e9f1a304623abc40195c5858a38d9189d943b5c84d20c06",
+        "gitBlobSha": "6a3dbcfbefa6723e2ba9c199c1b2e3e7c4ea2679",
+        "url": "https://github.com/kotoba-lang/com-copernicus-sentinel/blob/e40772cd3552de19c2237d91557afc2ac36decf4/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 31,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 31 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

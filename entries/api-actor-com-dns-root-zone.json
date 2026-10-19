@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-dns-root-zone",
+  "name": "com_dns_root_zone clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-dns-root-zone for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-dns-root-zone",
+    "commit": "232ec98c1abf5a121ff001cd35d9b461f28ba6d3",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "de689547da6b5e6bd8a7c6fa158e004271be83336c7b131ce92340c8a0fcb7d4",
+        "gitBlobSha": "62815b5d8cf4e39edabc013ca986ce4d083348b9",
+        "url": "https://github.com/kotoba-lang/com-dns-root-zone/blob/232ec98c1abf5a121ff001cd35d9b461f28ba6d3/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 21,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 21 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

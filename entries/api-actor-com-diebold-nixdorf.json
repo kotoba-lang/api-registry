@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-diebold-nixdorf",
+  "name": "com_diebold_nixdorf clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-diebold-nixdorf for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-diebold-nixdorf",
+    "commit": "462fb6338195cfefb7abf090bda0f8e8085405fd",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "364c0e2306f1c4d18303b83d3ca14ab422d9d5a80c12418c509805d682341d20",
+        "gitBlobSha": "06cb73ebd404394bdd87acd5f8a51071a9a3e8ea",
+        "url": "https://github.com/kotoba-lang/com-diebold-nixdorf/blob/462fb6338195cfefb7abf090bda0f8e8085405fd/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 31,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 31 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

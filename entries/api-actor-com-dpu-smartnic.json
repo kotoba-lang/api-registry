@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-dpu-smartnic",
+  "name": "com_dpu_smartnic clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-dpu-smartnic for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-dpu-smartnic",
+    "commit": "ef1bb99ff82135f61b9c6ab472a33878499acfdd",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "b0c5be6d30a69e437fb3c92f6ad11e588f27811bf2d16ae24eca3a78812cdcf0",
+        "gitBlobSha": "e7d5ebe06edfd067852bfbdb518ca0b07a41bcda",
+        "url": "https://github.com/kotoba-lang/com-dpu-smartnic/blob/ef1bb99ff82135f61b9c6ab472a33878499acfdd/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 30,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 30 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}
