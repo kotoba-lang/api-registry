@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-pjm-interconnection",
+  "name": "com_pjm_interconnection clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-pjm-interconnection for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-pjm-interconnection",
+    "commit": "aa87024758f441e1c0ec1c708fde8fe45d08f809",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "09a7c2c1491a3c17af2869c41d02afe2ea5639a58043a0b5d40ae10d4314db43",
+        "gitBlobSha": "cfef4512c3f642860c4a5d5bcc789dc59814df65",
+        "url": "https://github.com/kotoba-lang/com-pjm-interconnection/blob/aa87024758f441e1c0ec1c708fde8fe45d08f809/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 31,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 31 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

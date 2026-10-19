@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-woodmac-data",
+  "name": "com_woodmac_data clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-woodmac-data for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-woodmac-data",
+    "commit": "f9b94ffbf9b29c6bb0bddf125be56f40220f5aad",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "25b4bd3348596f6768dae9d876fe1b093e77c2ba083fd3f09ff87f0fc7e5f14b",
+        "gitBlobSha": "200a32b5ff2b126a2b5e5b9c7d30f9c7d6cac276",
+        "url": "https://github.com/kotoba-lang/com-woodmac-data/blob/f9b94ffbf9b29c6bb0bddf125be56f40220f5aad/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 31,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 31 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-as-400-ibmi",
+  "name": "com_as_400_ibmi clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-as-400-ibmi for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-as-400-ibmi",
+    "commit": "e309e9c4a106fc7f6d3fd986775d7003667edc03",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "d13665707ef6179130a8dba2a4be27fc7173b0cc5e6d430f368380c23199ed55",
+        "gitBlobSha": "c188cead632cf5d6cc31a34123caaa08e4a4dba1",
+        "url": "https://github.com/kotoba-lang/com-as-400-ibmi/blob/e309e9c4a106fc7f6d3fd986775d7003667edc03/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 31,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 31 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

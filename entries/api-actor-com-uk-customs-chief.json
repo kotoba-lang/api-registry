@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-uk-customs-chief",
+  "name": "com_uk_customs_chief clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-uk-customs-chief for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-uk-customs-chief",
+    "commit": "04951e443c457ce0b872c0d4cfb69778ff3ec0fa",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "c4760d020bf730f1cc1f8fc62b23f92fffe5aed7ed50139641914629ff2147cd",
+        "gitBlobSha": "392dfc21bc04ee07f6457fdf59d5292aae88381f",
+        "url": "https://github.com/kotoba-lang/com-uk-customs-chief/blob/04951e443c457ce0b872c0d4cfb69778ff3ec0fa/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 31,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 31 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

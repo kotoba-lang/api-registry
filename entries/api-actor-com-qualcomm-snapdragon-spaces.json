@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-qualcomm-snapdragon-spaces",
+  "name": "com_qualcomm_snapdragon_spaces clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-qualcomm-snapdragon-spaces for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-qualcomm-snapdragon-spaces",
+    "commit": "6ad396133603ad76a9aa30d3d025123da3db7039",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "b0a6bef29e7a389ea8712504531cc07f44a3fc1d48ba009eb98f22c40fad179d",
+        "gitBlobSha": "4d2be8ccf9f5839bc6c6838a575019c1d3a50403",
+        "url": "https://github.com/kotoba-lang/com-qualcomm-snapdragon-spaces/blob/6ad396133603ad76a9aa30d3d025123da3db7039/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 31,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 31 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

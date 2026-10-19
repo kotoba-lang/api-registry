@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-schlumberger-osdu",
+  "name": "com_schlumberger_osdu clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-schlumberger-osdu for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-schlumberger-osdu",
+    "commit": "145789d92b13ba2a2eb5ae8e83d972d50f29522b",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "8bf8a5fe6c4291a86cfa9ff4431c187352ee1e0ab39cfd3856c3cbbe9bf6cfca",
+        "gitBlobSha": "28ad7f568c1d51703b708f63206197e95282a195",
+        "url": "https://github.com/kotoba-lang/com-schlumberger-osdu/blob/145789d92b13ba2a2eb5ae8e83d972d50f29522b/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 31,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 31 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

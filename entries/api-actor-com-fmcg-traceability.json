@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-fmcg-traceability",
+  "name": "com_fmcg_traceability clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-fmcg-traceability for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-fmcg-traceability",
+    "commit": "e1d0668337d99c84b3ecb51534febe91c0a2c737",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "b9a50d6ca4f328a4ac28227892ba359d3c25cab555d7409f1894edac5c235e0e",
+        "gitBlobSha": "3a56c5908bba53242447cab96bbff9301f4aa4e4",
+        "url": "https://github.com/kotoba-lang/com-fmcg-traceability/blob/e1d0668337d99c84b3ecb51534febe91c0a2c737/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 31,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 31 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

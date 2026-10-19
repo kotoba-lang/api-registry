@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-toshiba-global-commerce",
+  "name": "com_toshiba_global_commerce clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-toshiba-global-commerce for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-toshiba-global-commerce",
+    "commit": "01fbec3860937e1751c74e4b738370239d027990",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "b8052df6355b8580b17cbe96d548ca322aaf54c4399dc1a64d3f2995d02a3947",
+        "gitBlobSha": "4b7ba7bf184854f33b3f78e3bed26fb30b86e669",
+        "url": "https://github.com/kotoba-lang/com-toshiba-global-commerce/blob/01fbec3860937e1751c74e4b738370239d027990/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 31,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 31 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

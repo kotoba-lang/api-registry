@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-lpddr-mobile",
+  "name": "com_lpddr_mobile clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-lpddr-mobile for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-lpddr-mobile",
+    "commit": "d2b1e68dfe55cd35b8971a936146f41685915ea3",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "4ad5217fe54b3523dea380e8ac8122fd5cd59cfd6248252ef3b9ae003e4b283e",
+        "gitBlobSha": "5caa6efe91a73b9571e3dde48d228c9dff765751",
+        "url": "https://github.com/kotoba-lang/com-lpddr-mobile/blob/d2b1e68dfe55cd35b8971a936146f41685915ea3/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 30,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 30 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

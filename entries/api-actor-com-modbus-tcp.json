@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-modbus-tcp",
+  "name": "com_modbus_tcp clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-modbus-tcp for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-modbus-tcp",
+    "commit": "fc57889679ecc5b070d939e5c93c5f0bea0d1010",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "620f2ec9f2db6d663dfb86741a71af5741a0cccab2e904527163c632ba0d1ecb",
+        "gitBlobSha": "a266d7ae34f7e025949ff8220f65588ad53cbe42",
+        "url": "https://github.com/kotoba-lang/com-modbus-tcp/blob/fc57889679ecc5b070d939e5c93c5f0bea0d1010/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 21,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 21 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}

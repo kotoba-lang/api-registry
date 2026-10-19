@@ -1,0 +1,44 @@
+{
+  "id": "api-actor-com-ibm-qiskit",
+  "name": "com_ibm_qiskit clean-room API",
+  "kind": "api-implementation",
+  "description": "OpenAPI surface published by kotoba-lang/com-ibm-qiskit for an owner-described clean-room compatibility actor. This is a catalog reference only; third-party equivalence, implementation behavior, deployment, and endpoint availability are not certified.",
+  "source": {
+    "repository": "kotoba-lang/com-ibm-qiskit",
+    "commit": "c6f21069d623ad18cb30740a12f250d12a0a3411",
+    "ref": "main",
+    "files": [
+      {
+        "path": "openapi.json",
+        "role": "declared-api-surface",
+        "mediaType": "application/json",
+        "sha256": "d5b0255306feec1d6b9070a9524ace9ba85900ef2f96cd458e2e539c7c5e8b12",
+        "gitBlobSha": "f89be5a0074fe09a4d977e08cb668aa56b25f317",
+        "url": "https://github.com/kotoba-lang/com-ibm-qiskit/blob/c6f21069d623ad18cb30740a12f250d12a0a3411/openapi.json"
+      }
+    ]
+  },
+  "contract": {
+    "format": "OpenAPI",
+    "version": "3.1.0",
+    "apiVersion": "1.0.0",
+    "maturity": "owner-described-clean-room-compatibility",
+    "license": "Apache-2.0"
+  },
+  "operationCount": 16,
+  "effects": [
+    "catalog-only",
+    "operation-effects-unclassified"
+  ],
+  "verification": {
+    "remoteDefaultBranch": "main",
+    "checkedAt": "2026-10-19",
+    "remoteHeadMatchedPinnedCommit": true,
+    "sourceFileHashesVerified": true,
+    "sourceHashMethod": "github-content-read-at-pinned-commit",
+    "contractParse": "JSON parsed successfully; OpenAPI 3.1.0; 16 operations",
+    "tests": "not-run",
+    "implementationConformance": "owner-described-only-not-verified",
+    "liveEndpoint": "not-verified"
+  }
+}
